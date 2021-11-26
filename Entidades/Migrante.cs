@@ -7,7 +7,7 @@ namespace Hackaton.App.Dominio
     {
         public int Id { get; set; }
         [Required, StringLength(50)]
-        public string Nombre { get; set; }
+        public string Nombres { get; set; }
         [Required, StringLength(50)]
         public string Apellidos { get; set; }
         [Required, StringLength(30)]
